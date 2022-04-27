@@ -28,7 +28,7 @@ function Header() {
           src="https://i.ibb.co/Vmnm3Jx/pngfind-com-cinematic-png-4915696.png"
           alt="logo"
           width={80}
-          height={100}
+          height={80}
           className="cursor-pointer object-contain"
         />
 

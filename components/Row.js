@@ -32,7 +32,7 @@ function Row({ title, movies }) {
           onClick={() => handleClick("left")}
         />
         <div
-          className="flex items-center space-x-0.5 overflow-x-hidden  md:space-x-2.5 md:p-2"
+          className="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2"
           ref={rowRef}
         >
           {movies.map((movie) => (

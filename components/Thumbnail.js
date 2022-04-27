@@ -11,6 +11,7 @@ function Thumbnail({ movie }) {
         }`}
         className="rounded-sm object-cover md:rounded"
         layout="fill"
+        alt="thumbnail-image"
       />
     </div>
   );
